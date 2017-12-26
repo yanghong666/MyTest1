@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.myfresco.Main4Activity">
+
+    >
+
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:id="@+id/sim_fre"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        fresco:placeholderImage="@mipmap/ic_launcher"/>
+
+
+    <Button
+        android:gravity="center"
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="网络请求图片"
+        />
+
+
+
+</LinearLayout>

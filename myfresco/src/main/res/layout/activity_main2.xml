@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myfresco.Main2Activity"
+    android:orientation="vertical"
+    >
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="居中，无缩放"
+        />
+
+
+    <Button
+        android:id="@+id/btn2"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="保持宽高比缩小或放大，使得两边都大于或等于显示边界(也就是裁剪成正方形)。以中间的点为图片中心"
+        />
+
+
+    <Button
+        android:id="@+id/btn3"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="同centerCrop, 但居中点不是中点，而是指定的某个点,这里设置为图片的左上角那点"
+        />
+
+    <Button
+        android:id="@+id/btn4"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使两边都在显示边界内，居中显示。如果图尺寸大于显示边界，则保持长宽比缩小图片"
+        />
+
+
+    <Button
+        android:id="@+id/btn5"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="保持宽高比，缩小或者放大，使得图片完全显示在显示边界内。居中显示"
+        />
+
+
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:id="@+id/sim_fre"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+
+        fresco:placeholderImage="@mipmap/ic_launcher"/>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
