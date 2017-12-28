@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myxm2day03.Main2Activity">
+
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_gravity="center"
+        android:id="@+id/simyuan"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+
+        />
+
+
+
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_gravity="center"
+        android:id="@+id/sim"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+
+        />
+
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:text="开始"
+        android:layout_weight="1"
+        android:id="@+id/btnstart"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+        <Button
+            android:text="清除缓存"
+            android:layout_weight="1"
+            android:id="@+id/btnclear"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="停止"
+            android:id="@+id/btnstop"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
